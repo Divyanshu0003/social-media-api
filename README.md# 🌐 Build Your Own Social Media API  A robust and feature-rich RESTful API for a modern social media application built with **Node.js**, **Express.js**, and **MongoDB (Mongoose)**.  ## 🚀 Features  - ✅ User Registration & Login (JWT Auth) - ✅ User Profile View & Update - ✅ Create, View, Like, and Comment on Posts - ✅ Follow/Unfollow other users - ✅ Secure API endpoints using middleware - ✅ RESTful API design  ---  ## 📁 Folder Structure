@@ -1,0 +1,45 @@
+# 🌐 Build Your Own Social Media API
+
+A robust and feature-rich RESTful API for a modern social media application built with **Node.js**, **Express.js**, and **MongoDB (Mongoose)**.
+
+## 🚀 Features
+
+- ✅ User Registration & Login (JWT Auth)
+- ✅ User Profile View & Update
+- ✅ Create, View, Like, and Comment on Posts
+- ✅ Follow/Unfollow other users
+- ✅ Secure API endpoints using middleware
+- ✅ RESTful API design
+
+---
+
+## 📁 Folder Structure
+
+social-media-api/
+├── config/ # MongoDB configuration
+├── controllers/ # Route controller logic
+├── middleware/ # Authentication middleware
+├── models/ # Mongoose models
+├── routes/ # Express route files
+├── .env # Environment variables
+├── server.js # Main entry point
+└── package.json # Project metadata
+
+
+---
+
+## ⚙️ Tech Stack
+
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB with Mongoose
+- **Authentication**: JWT & bcrypt.js
+- **Environment Variables**: dotenv
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/social-media-api.git
+cd social-media-api
